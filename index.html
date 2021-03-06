@@ -8,8 +8,20 @@
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Builds.json");
     </script>
+    <style>
+      body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+      }
+      #gameContainer {
+        margin: auto!important
+      }
+    </style>
   </head>
   <body>
-    <div id="gameContainer" style="width: 580px; height: 640px; margin: auto"></div>
+    <div style="text-align: center; margin-top: 1rem;">
+      <div id="gameContainer" style="width: 580px; height: 640px; margin: auto!important"></div>
+    </div>
   </body>
 </html>
